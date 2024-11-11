@@ -4,8 +4,12 @@ const modal = document.getElementById("modal")
 
 setTimeout(()=>{
     modal.style.display = 'inline'
-}, 5000)
+}, 3000)
 
-modalCloseBtn.addEventListener('click', function (){
+modalCloseBtn.addEventListener('click',  ()=>{
     modal.style.display= 'none'
 })
+
+
+
+

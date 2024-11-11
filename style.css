@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Noto Emoji Regular';
+    src: url('fonts/NotoColorEmoji.ttf');
+}
 *{
     box-sizing: border-box;
 }
@@ -5,7 +9,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Color Emoji', 'Roboto', sans-serif;
+    font-family: 'Noto Emoji Regular', 'Roboto', sans-serif;
     color: #222;
 }
 
@@ -44,6 +48,7 @@ li{
     margin-bottom: 12px;
     font-weight: 500;
     font-size: 22px;
+    font-family: 'Noto Emoji Regular', 'Roboto', sans-serif;
 }
 
 .li-green{background-color:#E5FDEA}

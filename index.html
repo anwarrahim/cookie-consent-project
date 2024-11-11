@@ -1,8 +1,10 @@
-<html>
+<html  lang="en">
 
-<head>
+<head >
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <title>Cookie consent Project</title>
 </head>
 
 <body>
@@ -11,7 +13,7 @@
         <h1>Learning to code? This is the most important thing you will ever read!</h1>
 
         <ul>
-            <li class="li-green">💰 Land a job with a 6 figure salary</li>
+            <li class="li-green">😎 Land a job with a 6 figure salary</li>
             <li class="li-yellow">💻 Master JavaScript in 3 hours</li>
             <li class="li-blue">⚛️ Learn React in 10 minutes</li>
             <li class="li-pink">☕ Be a NodeJS Dev by lunchtime</li>
@@ -29,7 +31,34 @@
     <div class="modal-inner" id="modal-inner">
         <h2>We Love Your Data!</h2>
         <p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this site, enter your name and email address and accept our ridiculous terms and conditions.</p>
+       <form>
+        <label>
+            <input
+                    type="text"
+                    name="visitorName"
+                    placeholder="Enter Your Full Name"
+                    required
+            >
+        </label>
+
+        <label >
+            <input
+                    type="email"
+                    name="visitorEmail"
+                    placeholder="Enter Your Email"
+                    required
+            >
+        </label>
+        <div class="modal-choice-btns" id="modal-choice-btns">
+            <button class="modal-btn" type="submit">Accept</button>
+            <button class="modal-btn" >Decline</button>
+        </div>
+       </form>
+
+
     </div>
+
+
 </div>
 <script src="script.js"></script>
 </body>

@@ -30,6 +30,14 @@ consentForm.addEventListener("submit", (e)=>{
    sale...`
     }, 1500)
     
+    setTimeout(()=>{
+        modalText.innerHTML =   `<h2>Thanks you sucker! </h2>
+    <p>We just sold the rights to your eternal soul.</p>
+    <div class="idiot-gif">
+        <img src="images/pirate.">
+    </div>
+    `
+    }, 3000)
     
     
 })

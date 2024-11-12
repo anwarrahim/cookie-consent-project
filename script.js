@@ -30,6 +30,8 @@ consentForm.addEventListener("submit", (e)=>{
    sale...`
     }, 1500)
     
+    
+    
 })
 
 

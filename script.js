@@ -18,6 +18,7 @@ modalCloseBtn.addEventListener('click',  ()=>{
 consentForm.addEventListener("submit", (e)=>{
     e.preventDefault()
     
+    
     const consentFormData = new FormData(consentForm)
     const name = consentFormData.get('visitorName')
     modalText.innerHTML = `  <div class="modal-inner-loading">
@@ -27,10 +28,12 @@ consentForm.addEventListener("submit", (e)=>{
         </p>
     </div>`
     
+    
     setTimeout(()=>{
         document.getElementById('upload-text').innerText=`Making the
    sale...`
     }, 1500)
+    
     
     setTimeout(()=>{
         document.getElementById('modal-inner').innerHTML = `

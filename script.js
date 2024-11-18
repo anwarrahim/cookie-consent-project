@@ -38,6 +38,7 @@ consentForm.addEventListener("submit", (e)=>{
     
     
     setTimeout(()=>{
+        
         document.getElementById('modal-inner').innerHTML = `
      <h2>Thanks <span class="modal-display-name">${name}</span>, you sucker! </h2>
     <p>We just sold the rights to your eternal soul.</p>

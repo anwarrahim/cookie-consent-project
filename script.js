@@ -48,9 +48,6 @@ consentForm.addEventListener("submit", (e)=>{
     `
         modalCloseBtn.disabled = false
     }, 3000)
-    
-   
-    
 })
 
 
